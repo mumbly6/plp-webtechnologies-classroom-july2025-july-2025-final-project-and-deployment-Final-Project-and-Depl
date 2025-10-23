@@ -1,90 +1,73 @@
-# 📦 Final Assignment: Build, Organize, and Deploy a Multipage Website
+# Welcome to your Lovable project
 
-You're now ready to bring everything together—HTML, CSS, JavaScript, planning, structure, and deployment. This final project challenges you to **conceptualize, build, and deploy a multi-page website** that is responsive, interactive, and ready for the real world.
+## Project info
 
-This assignment will guide you from planning your site all the way to deploying it online. Let’s make your project *production-worthy*! 🚀
+**URL**: https://lovable.dev/projects/c8c9fb11-f65f-4586-8e7f-f0554e662e62
 
----
+## How can I edit this code?
 
-## 🌐🎯 Part 1: Planning and Organizing a Multipage Website
+There are several ways of editing your application.
 
-Before you write any code, take time to plan:
+**Use Lovable**
 
-* Define your website's purpose (portfolio, product showcase, blog, etc.)
-* Outline 3–5 pages (e.g., Home, About, Services, Contact, Gallery)
-* Sketch or describe the layout of each page
-* Map out internal navigation (how pages link to one another)
+Simply visit the [Lovable Project](https://lovable.dev/projects/c8c9fb11-f65f-4586-8e7f-f0554e662e62) and start prompting.
 
-**Goal:** Show intentional structure and user journey across the site.
+Changes made via Lovable will be committed automatically to this repo.
 
----
+**Use your preferred IDE**
 
-## 🌍💻 Part 2: Build the Website Using HTML5, CSS, and JavaScript
+If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
-Using your plan, begin building:
+The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-* Use HTML5 for semantic structure
-* Apply CSS for responsive layout, styling, and animations
-* Use JavaScript to add interactivity (menus, forms, toggles, dynamic content)
+Follow these steps:
 
-Each page should:
+```sh
+# Step 1: Clone the repository using the project's Git URL.
+git clone <YOUR_GIT_URL>
 
-* Be mobile-responsive
-* Share a consistent layout/header/footer
-* Include at least one interactive element (e.g., form validation, toggle menu, animation on scroll)
+# Step 2: Navigate to the project directory.
+cd <YOUR_PROJECT_NAME>
 
-**Goal:** Integrate everything you’ve learned in a cohesive, functioning project.
+# Step 3: Install the necessary dependencies.
+npm i
 
----
+# Step 4: Start the development server with auto-reloading and an instant preview.
+npm run dev
+```
 
-## 🛠️🚀 Part 3: Best Practices for Code Organization
+**Edit a file directly in GitHub**
 
-Before deployment, refactor your project to follow production-friendly practices:
+- Navigate to the desired file(s).
+- Click the "Edit" button (pencil icon) at the top right of the file view.
+- Make your changes and commit the changes.
 
-* Organize files in folders (`/css`, `/js`, `/images`, etc.)
-* Write clean, modular, and commented code
-* Use meaningful file names and relative paths
-* Validate your HTML/CSS and test on different screen sizes
+**Use GitHub Codespaces**
 
-**Goal:** Prepare your codebase to be readable, maintainable, and scalable.
+- Navigate to the main page of your repository.
+- Click on the "Code" button (green button) near the top right.
+- Select the "Codespaces" tab.
+- Click on "New codespace" to launch a new Codespace environment.
+- Edit files directly within the Codespace and commit and push your changes once you're done.
 
----
+## What technologies are used for this project?
 
-## 🌐🚀 Part 4: Introduction to Hosting and Deployment
+This project is built with:
 
-Once your project is complete, choose a method to **host your site online**.
+- Vite
+- TypeScript
+- React
+- shadcn-ui
+- Tailwind CSS
 
-You can use:
+## How can I deploy this project?
 
-* **GitHub Pages** (great for portfolios and static sites)
-* **Netlify** (powerful CI/CD features and easy form support)
-* **Vercel** (lightning-fast deployment for frontend projects)
+Simply open [Lovable](https://lovable.dev/projects/c8c9fb11-f65f-4586-8e7f-f0554e662e62) and click on Share -> Publish.
 
-Deploy your project and confirm that:
+## Can I connect a custom domain to my Lovable project?
 
-* All links and scripts work
-* It loads properly on mobile and desktop
-* It has a clear, shareable URL
+Yes, you can!
 
-**Goal:** Publish your work online and make it accessible to the world.
+To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
 
----
-
-## Deliverables
-
-1. A GitHub repository containing:
-
-   * Your complete project code, properly organized
-   * A `README.md` file explaining your project purpose, structure, and live URL
-2. A live deployed website (hosted via GitHub Pages, Netlify, or Vercel)
-
----
-
-## Outcome
-
-* Clarity and thoroughness of planning documentation
-* Proper use of HTML5, CSS, and JavaScript across multiple pages
-* Responsive and accessible design
-* Clean, well-organized, and commented code
-* Successful live deployment with a working link
-* Evidence of following best practices
+Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
